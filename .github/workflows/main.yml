@@ -11,6 +11,6 @@ jobs:
           sudo apt install ffmpeg --yes
       - name: Verificação ffmpeg
         run: |
-          ffmpeg --help
+          ffmpeg --version
       
   
